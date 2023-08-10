@@ -2,7 +2,7 @@
 /**
  * main - the entry point
  *
- * return - return always with 0 in int 
+ * Return : return always with 0 in int 
  */
 int main(void)
 { puts("\"Programming is like building a multilingual puzzle");
