@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
-  *a comment to describe so we wanna print a text
-  *than return the 0 value
+  * main - the entry point
+  * return : return always with 0 in int 
  */
 int main(void)
 {puts("\"Programming is like building a multilingual puzzle");
