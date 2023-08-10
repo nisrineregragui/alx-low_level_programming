@@ -1,8 +1,9 @@
 #include<stdio.h>
 /**
-  * main - the entry point
-  * return : return always with 0 in int 
+ * main - the entry point
+ *
+ * return - return always with 0 in int 
  */
 int main(void)
-{puts("\"Programming is like building a multilingual puzzle");
+{ puts("\"Programming is like building a multilingual puzzle");
 return (0); }
