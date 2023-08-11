@@ -9,6 +9,6 @@ for(i =0; i < 26 ; i++)
 putchar(lettre);
 lettre++;
 }
-putchar(\n);
+putchar('\n');
 return (0);
 }
