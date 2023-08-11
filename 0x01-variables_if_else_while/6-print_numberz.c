@@ -1,12 +1,14 @@
 #include <stdio.h>
-/*comment*/ int main(void) /*cpmment*/
+/*comment*/ int main(void) /*comment*/
 {
 int i;
+char lettre='a';
 
-for (i = 0; i < 10 ; i++)
+for(i =0; i < 26 ; i++)
 {
-printf("%d", i);
+putchar(lettre);
+lettre++;
 }
-printf("\n");
+putchar(\n);
 return (0);
 }
