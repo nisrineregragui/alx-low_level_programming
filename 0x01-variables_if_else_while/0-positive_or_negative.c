@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* a description */
-int main(void) /* a description */
+/* a description */ int main(void) /* a description */
 {
 int n;
 srand(time(0));
