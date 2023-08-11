@@ -5,7 +5,7 @@ int i, num = 0;
 for (i = 0; i < 10 ; i++)
 {
 putchar(num + '0');
-if(num !=9)
+if (num != 9)
 {
 putchar(',');
 putchar(' ');
