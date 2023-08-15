@@ -5,8 +5,8 @@ char a = 'a';
 int i;
 for (i = 0; i < 26; i++)
 {
-putchar(a);
+_putchar(a);
 a++;
 }
-putchar('\n');
+_putchar('\n');
 }
