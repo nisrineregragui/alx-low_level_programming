@@ -12,5 +12,6 @@ else
 {
 n = k % 10;
 }
-return (n * 11);
+n = n * 11;
+return (n);
 }
