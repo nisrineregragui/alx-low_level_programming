@@ -3,15 +3,15 @@
 /*comment*/ int print_last_digit(int k) /*comment*/
 {
 int n;
+n = k % 10;
 if (k < 0)
 {
-n = -k;
-n = n % 10;
+_putchar(-n + 48);
+return (-n);
 }
 else
 {
-n = k % 10;
-}
-n = n * 11;
+_putchar(n + 48);
 return (n);
+}
 }
