@@ -8,7 +8,7 @@ for (j = 0; j < 10; j++)
 {
 r = i * j;
 spaces = (j == 0) ? 0 : 3 - (r < 10) - (r >= 100);
-while (numSpaces > 0)
+while (spaces > 0)
 {
 _putchar(' ');
 spaces--;
