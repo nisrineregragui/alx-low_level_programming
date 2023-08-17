@@ -1,26 +1,25 @@
 #include "main.h"
 /*betty*/ int main(void) /*style*/
 {
-int max = 1, p, i, k = 0, n = 1231952;
-float l;
-while (k == 1)
+long int n = 612852475143, i, p = -1;
+while (n % 2 == 0)
 {
-i = 2;
-while (n % i != 0 && i < n / 2)
-{
-i++;
+p = 2;
+n = n / 2;
 }
+for (i = 3; i <= i / 2; i = i + 2)
+{
+while (n % i == 0)
+{
 p = i;
-k = n % i;
-l 
 n = n / i;
-printf("p=%d\n", p);
-if (max < p && k != 0)
+}
+}
+if (n > 2)
 {
-max = p;
+p = n;
 }
-}
-max = max / 2;
-printf("%d\n", max);
+printf("%ld\n", p);
 return (0);
 }
+
