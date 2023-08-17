@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /*betty*/ int main(void) /*style*/
 {
@@ -23,4 +24,5 @@ printf("%d ", i);
 }
 printf("\n");
 return (0);
-}  
+}
+
