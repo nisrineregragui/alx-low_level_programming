@@ -1,16 +1,18 @@
 #include "main.h"
 /*betty*/ void rev_string(char *s) /*style*/
 {
-char *p = s,*k = s;
-while (*s != '\0')
+char i = s[0];
+int c, j;
+c = 0;
+while (s[c] != '\0')
 {
-s++;
+c++;
 }
-s--;
-while (s !=k)
+for (j = 0; j < c; j++)
 {
-*s = *p;
-p++;
-s--;
+c--;
+i = s[j];
+s[j] = s[c];
+s[c] = i;
 }
 }
