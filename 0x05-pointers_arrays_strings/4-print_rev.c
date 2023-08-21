@@ -1,7 +1,7 @@
 #include "main.h"
 /*betty*/ void print_rev(char *s) /*style*/
 {
-int *p;
+char *p;
 p = s;
 while (*s != '\0')
 {
@@ -12,7 +12,7 @@ do {
 _putchar(*s);
 s--;
 }
-while (s != p)
+while (s != p);
 _putchar('\n');
 }
 
