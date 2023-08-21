@@ -21,10 +21,9 @@ if (s == p)
 {
 _putchar(*s);
 }
-}
-while (s != p);
-}
+}while (s != p);
 _putchar('\n');
+}
 }
 
 
