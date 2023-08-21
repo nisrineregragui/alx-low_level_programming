@@ -1,7 +1,6 @@
 #include "main.h"
 /*betty*/ void puts2(char *str) /*style*/
 {
-str++;
 while (*str !='\0')
 {
 _putchar(*str);
