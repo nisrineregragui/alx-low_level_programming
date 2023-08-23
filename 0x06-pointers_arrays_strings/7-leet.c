@@ -2,30 +2,19 @@
 /*betty*/ char *leet(char *); /*style*/
 /*betty*/ char *leet(char *a) /*style*/
 {
-int i = 0;
-while (a[i] != '\0')
+int i, j;
+char let[] = "aAeEoOtTlL";
+char num[] = "4433007711";
+for (i = 0; a[i] != '\0'; i++)
 {
-if (a[i] == 'a' || a[i] == 'A')
+for (j = 0; a[j] != '\0'; j++)
 {
-a[i] = '4';
+if (a[i] == let[j])
+{
+a[i] = num[j];
 }
-else if (a[i] == 'e' || a[i] == 'E')
-{
-a[i] = '3';
 }
-else if (a[i] == 'o' || a[i] == 'O')
-{
-a[i] = '0';
-}
-else if (a[i] == 't' || a[i] == 'T')
-{
-a[i] = '7';
-}
-else if (a[i] == 'l' || a[i] == 'L')
-{
-a[i] = '0';
-}
-i++;
 }
 return (a);
 }
+
