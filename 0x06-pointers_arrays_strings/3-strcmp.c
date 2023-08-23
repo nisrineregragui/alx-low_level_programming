@@ -1,25 +1,14 @@
 #include "main.h"
 /*betty*/ int _strcmp(char *s1, char *s2) /*style*/
 {
-int ls1 = 0, ls2 = 0;
-while (s1[ls1] != '\0')
+int i = 0;
+while (s1 != '\0' && s2 != '\0')
 {
-ls1++;
+if (s1[i] != s2[i])
+{
+return ( s1[i] - s2[i]);
 }
-while (s2[ls2] != '\0')
-{
-ls2++;
+i++;
 }
-if (ls1 > ls2)
-{
-return (15);
-}
-else if (ls1 < ls2)
-{
-return (-15);
-}
-else
-{
 return (0);
-}
 }
