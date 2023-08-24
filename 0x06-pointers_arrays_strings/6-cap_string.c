@@ -1,6 +1,6 @@
 #include "main.h"
 /*betty*/ char *cap_string(char *); /*style*/
-/*betty*/ char *cap_string(char *) /*style*/
+/*betty*/ char *cap_string(char *str) /*style*/
 {
 int i = 0;
 while (str[i])
