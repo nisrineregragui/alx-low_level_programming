@@ -4,10 +4,9 @@
 int i = 0, f, k;
 char a;
 f = 0;
-while (s[i] != '\0')
+while (s[i] != '\0' && f == 0)
 {
 a = s[i];
-f = 0;
 if (accept[i] == a)
 {
 f = 1;
