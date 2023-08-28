@@ -16,7 +16,8 @@ f = 1;
 }
 i++;
 }
-return (k + 1);
+k += 1;
+return (k);
 
 }
 
