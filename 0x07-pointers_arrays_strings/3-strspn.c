@@ -17,7 +17,6 @@ break;
 }
 i++;
 }
-k += 1;
 return (k);
 }
 
