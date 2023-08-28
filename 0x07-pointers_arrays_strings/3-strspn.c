@@ -4,20 +4,20 @@
 int i = 0, f, k;
 char a;
 f = 0;
-while (s[i] != '\0' && f == 0)
+while (accept[i] != '\0' && f == 0)
 {
-a = s[i];
-for (k = 0; accept[k] != '\0'; k++)
+a = accept[i];
+for (k = 0; s[k] != '\0'; k++)
 {
-if (accept[k] == a)
+if (s[k] == a)
 {
 f = 1;
+break;
 }
 }
 i++;
 }
 k += 1;
 return (k);
-
 }
 
