@@ -1,7 +1,7 @@
 #include "main.h"
-/*betty*/ int main(int agrc, char *agrv[])/*stymle*/
+/*betty*/ int main(int argc, char *argv[])/*stymle*/
 {
 (void)argv;
-printf ("%d\n", agrc - 1);
+printf ("%d\n", argc - 1);
 return (0);
 }
