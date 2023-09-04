@@ -8,11 +8,11 @@ if (str == NULL)
 {
 return (NULL);
 }
-strcpy(duplicate, str);
 if (duplicate == NULL)
 {
 return (NULL);
 }
+strcpy(duplicate, str);
 return (duplicate);
 }
 
