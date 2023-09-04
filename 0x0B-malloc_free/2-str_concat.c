@@ -8,7 +8,7 @@ if (concat == NULL)
 {
 return (NULL);
 }
-if(s1 == NULL)
+if (s1 == NULL)
 {
 strcpy(concat, s2);
 return (concat);
