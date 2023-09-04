@@ -8,6 +8,16 @@ if (concat == NULL)
 {
 return (NULL);
 }
+if(s1 == NULL)
+{
+strcpy(concat, s2);
+return (concat);
+}
+else if (s2 == NULL)
+{
+strcpy(concat, s1);
+return (concat);
+}
 strcpy(concat, s1);
 strcat(concat, s2);
 return (concat);
