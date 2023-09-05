@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "main.h"
 /*betty*/ void print_grid(int **grid, int width, int height) /*style*/
 {
