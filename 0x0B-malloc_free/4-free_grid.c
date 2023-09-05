@@ -3,6 +3,7 @@
 /*betty*/ void print_grid(int **grid, int width, int height) /*style*/
 {
 int i;
+(void)width;
 for (i = 0; i < height; i++)
 {
 free(grid[i]);
