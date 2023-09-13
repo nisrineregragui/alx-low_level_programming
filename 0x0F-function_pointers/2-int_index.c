@@ -6,8 +6,12 @@ if (size <= 0)
 {
 return (-1);
 }
+if (array == NULL || cmp == NULL)
+{
+return;
+}
 i = 0;
-while(i < size && !cmp(array[i]))
+while (i < size && !cmp(array[i]))
 {
 i++;
 }
