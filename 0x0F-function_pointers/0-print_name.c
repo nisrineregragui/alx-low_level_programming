@@ -4,9 +4,5 @@
 char *p;
 (void)f;
 p = name;
-while ((*p) != '\0')
-{
 f(p);
-p++;
-}
 }
