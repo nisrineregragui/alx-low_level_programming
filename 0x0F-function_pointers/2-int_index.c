@@ -8,7 +8,7 @@ return (-1);
 }
 if (array == NULL || cmp == NULL)
 {
-return;
+return (-1);
 }
 i = 0;
 while (i < size && !cmp(array[i]))
