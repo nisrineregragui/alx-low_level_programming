@@ -3,6 +3,10 @@
 {
 char *p;
 (void)f;
+if (name == NULL || f == NULL)
+{
+return;
+}
 p = name;
 f(p);
 }
