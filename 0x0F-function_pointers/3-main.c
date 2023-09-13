@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "3-calc.h"
-int main(int __attribute__((__unused__)) argc, char *argv[])
+/*d*/int main(int __attribute__((__unused__)) argc, char *argv[])/*s*/
 {
 int num1, num2;
 char *op;

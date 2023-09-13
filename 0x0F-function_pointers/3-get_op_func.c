@@ -1,6 +1,6 @@
 #include "3-calc.h"
 #include <stdio.h>
-int (*get_op_func(char *s))(int, int)
+/*m*/int (*get_op_func(char *s))(int, int)/*m*/
 {
 int i;
 op_t ops[] = {
