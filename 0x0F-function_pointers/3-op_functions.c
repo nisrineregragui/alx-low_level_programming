@@ -21,7 +21,7 @@ return (a * b);
 {
 return (a / b);
 }
-/*op*/int op_mod(int a, int b) /*op*/
+/*op*/int op_mod(int a, int b); /*op*/
 int op_mod(int a, int b)
 {
 return (a % b);
