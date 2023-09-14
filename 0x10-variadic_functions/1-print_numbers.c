@@ -7,17 +7,17 @@ unsigned int i;
 va_start(args, n);
 if (separator == NULL)
 {
-for(i = 0; i < n; i++)
+for (i = 0; i < n; i++)
 {
 printf("%d", va_arg(args, int));
 }
 printf("\n");
 return;
 }
-for(i = 0; i < n; i++)
+for (i = 0; i < n; i++)
 {
 printf("%d", va_arg(args, int));
-if(i < (n - 1))
+if (i < (n - 1))
 {
 printf("%s", separator);
 }
