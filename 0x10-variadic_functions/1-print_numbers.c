@@ -1,6 +1,6 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
-/*betty*/void print_numbers(const char *separator, const unsigned int n, ...)/*style*/
+/*y*/void print_numbers(const char *separator, const unsigned int n, ...)/*e*/
 {
 va_list args;
 unsigned int i;
