@@ -13,7 +13,7 @@ if (st != NULL)
 {
 printf("%s", st);
 }
-else 
+else
 {
 printf("(nil)");
 }
@@ -24,4 +24,4 @@ printf("%s", separator);
 }
 printf("\n");
 }
-	
+
