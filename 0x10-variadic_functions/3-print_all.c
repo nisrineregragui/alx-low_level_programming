@@ -26,7 +26,7 @@ str = va_arg(list, char *);
 if (!str)
 {
 str = "(nil)";
-}				
+}
 printf("%s%s", sep, str);
 break;
 default:
