@@ -7,8 +7,9 @@
 	unsigned int l = 0;
 
 	while (str[l])
-		l++;
-
+	{
+	l++;
+	}
 	n = malloc(sizeof(list_t));
 	if (!n)
 	{
