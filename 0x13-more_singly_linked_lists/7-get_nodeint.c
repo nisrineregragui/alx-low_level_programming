@@ -1,5 +1,5 @@
 #include "lists.h"
-/*b*/ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index) /*s*/
+/*b*/listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)/*s*/
 {
 listint_t *tmp = head;
 unsigned int i;
