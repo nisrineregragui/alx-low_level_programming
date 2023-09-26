@@ -4,7 +4,7 @@
 listint_t *tmp;
 if (head == NULL)
 {
-return (NULL);
+return;
 }
 while (*head)
 {
