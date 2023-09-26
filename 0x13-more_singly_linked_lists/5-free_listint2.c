@@ -10,7 +10,7 @@ while (*head)
 {
 tmp = (*head)->next;
 free(*head);
-*head = tmmp;
+*head = tmp;
 }
 *head = NULL;
 }
