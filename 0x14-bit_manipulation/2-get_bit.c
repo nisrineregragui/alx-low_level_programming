@@ -6,6 +6,6 @@ if (index > 63)
 {
 return (-1);
 }
-bit = (n>>index) & 1;
+bit = (n >> index) & 1;
 return (bit);
 }
